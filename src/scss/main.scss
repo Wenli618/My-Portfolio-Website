@@ -1,0 +1,9 @@
+@use './vendors/bootstrap';
+
+@use './base/base';
+
+@use './pages/home';
+@use './pages/aboutme';
+@use './pages/project';
+@use './pages/myContact';
+@use './pages/notFound.scss';

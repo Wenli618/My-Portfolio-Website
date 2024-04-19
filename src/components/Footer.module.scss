@@ -1,0 +1,22 @@
+@use '../scss/abstracts' as *;
+
+.footer{
+    background-color: $complementaryColor;
+    color: $primaryColor;
+    padding:1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img{
+        img{
+            width: 70px;
+            border-radius: 50%;
+            margin: 1rem;
+        }
+    }
+    span{
+        margin-right: 0.5rem;
+    }
+}

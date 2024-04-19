@@ -1,0 +1,78 @@
+@use '../scss/abstracts/' as *;
+
+
+.projectCard{
+  border-radius: 10px;
+  background-color: $secondaryColor;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  row-gap: 1rem;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.05); 
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .cardBody{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+    p{
+      font-weight: bold;
+    }
+
+    .stackIcon{
+      display: flex;
+      justify-content: start;
+    }
+
+    .projectLinkDiv{
+      font-weight: bold;
+      margin: 1rem 0;
+    
+      .rightIcon {
+        color: $brandColor;
+        margin-bottom: 5px;
+      }
+
+      .projectLink {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: $complementaryColor;
+        position: relative;
+        &:before{
+          content: '';
+          position: absolute;
+          transition: transform .5s ease
+        }
+        &:after {
+          @extend :before;
+        }
+
+        // hover effect
+        &:before {
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 2px;
+          background: $brandColor;
+          transform:  scaleX(0);
+        }
+        &:hover:before {
+        transform:  scaleX(1);
+        }
+    }
+  }
+  }
+}
+
+
+
+

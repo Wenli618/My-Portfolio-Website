@@ -1,0 +1,38 @@
+@use '../scss/abstracts' as *;
+
+.navbar {
+    background-color:$secondaryColor ;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    padding: 1.5rem!important;
+    .navBrand {
+        font-family: $brandFont;
+        display: flex;
+        span {
+            margin: 0 10px;
+            font-family: $primaryFont;
+        }
+        h3{
+            color: $brandColor;
+        }
+    };
+    .navLink {
+        font-weight: bold;
+        border: 2px solid transparent;
+        padding: 0 !important;
+        margin: 0 1rem;
+        transition: border-bottom .5s ease;
+        
+        &:hover{
+            border-bottom-color: $brandColor;
+        }
+        &:focus{
+            border-bottom-color: $brandColor;
+        }
+    }
+
+    .nav-link{
+        background-color: black;
+    }
+
+}
+

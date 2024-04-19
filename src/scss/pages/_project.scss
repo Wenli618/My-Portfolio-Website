@@ -1,0 +1,30 @@
+@use '../abstracts/' as *;
+
+.projects{
+    width: 80vw;
+    max-width: 1200px;
+    margin:2rem;
+
+    h{
+        margin: 1rem auto;
+    }
+
+    .cardsContainer{
+        width: 80vw;
+        margin:2rem auto;
+        display: grid;
+        gap:2rem;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr;
+        @media (min-width: 768px){
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (min-width: 992px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @media (min-width: 1200px) {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+}

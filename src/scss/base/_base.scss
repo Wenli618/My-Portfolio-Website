@@ -1,0 +1,31 @@
+@use '../abstracts/variables' as *;
+
+body {
+    font-family: $primaryFont;
+    font-size: $fontSize;
+    color: $grey;
+    background-color: $primaryColor;
+    box-sizing: border-box;
+}
+
+h1, h2{
+  font-family: $titleFont;
+  font-weight: bolder;
+  color: $complementaryColor;
+}
+
+.app {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appContent {
+  
+    flex:1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+  }
