@@ -2,6 +2,7 @@ import html from '../assets/html-5-svgrepo-com.svg'
 import css from '../assets/css-3-svgrepo-com.svg'
 import javaScript from '../assets/javascript-svgrepo-com.svg'
 import react from '../assets/react-svgrepo-com.svg'
+import next from '../assets/next-dot-js-svgrepo-com.svg'
 import bootstrap from '../assets/bootstrap-fill-svgrepo-com.svg'
 import sass from '../assets/sass-svgrepo-com.svg'
 import vanillaExtract from '../assets/vanilla-extract-svgrepo-com.svg'
@@ -18,6 +19,7 @@ function AboutMe() {
     {name:'CSS', url:css},
     {name:'JavaScript', url:javaScript},
     {name:'React', url:react},
+    {name:"Next.JS", url:next},
     {name:'Svelte',url:svelte},
     {name:'Bootstrap', url:bootstrap},
     {name:'Sass', url:sass},
@@ -33,10 +35,9 @@ function AboutMe() {
     <div className="aboutContainer">
       <div className="about">
         <h1 >A Bit About Me</h1>
-        <p>I am currently studying a diploma of information technology at Holmesglen TAFE, majoring in front and back end web development. Before that, I've already finished a 12-week web development bootcamp offered by General Assembly in 2023.</p>
+        <p>I am currently studying a diploma of information technology at Holmesglen, majoring in full stack web development. Before that, I've already finished a 12-week web development bootcamp offered by General Assembly in 2023.During my learning journey, I completed several projects related to frontend and backend development. </p>
       </div>
       <div className="splitLine"></div>
-      
      
       <div className="skillContainer">
         <h2 className="title">Skills</h2>

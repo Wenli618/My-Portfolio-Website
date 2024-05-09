@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.img}>
-            <img src={photo} alt="" />
+            <img src={photo} alt="photo of Wenli Jia" />
           </div>
       <div>
         <span>Made with</span>

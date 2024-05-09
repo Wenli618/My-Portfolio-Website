@@ -10,7 +10,7 @@ function Header() {
     <>
         <Navbar  expand='lg' className={styles.navbar}>
           <Container fluid>
-            <Navbar.Brand href="/" className={styles.navBrand}> <span>&lt; </span>
+            <Navbar.Brand href="/" className={styles.navBrand} title='brand link'> <span>&lt; </span>
               <h3> Wenli Jia </h3>
               <span>  /&gt;</span>
             </Navbar.Brand>
@@ -26,10 +26,10 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body >
                 <Nav className={`justify-content-end flex-grow-1 pe-3  ${styles.links}`}>
-                  <Nav.Link className={styles.navLink} as={Link} to='/'>Home</Nav.Link>
-                  <Nav.Link className={styles.navLink} as={Link} to='/about'>About Me</Nav.Link>
-                  <Nav.Link className={styles.navLink} as={Link} to='/projects'>Projects</Nav.Link>
-                  <Nav.Link className={styles.navLink} as={Link} to='/contact'>Contact</Nav.Link>
+                  <Nav.Link className={styles.navLink} as={Link} to='/' title='home page link'>Home</Nav.Link>
+                  <Nav.Link className={styles.navLink} as={Link} to='/about' title='about page link'>About Me</Nav.Link>
+                  <Nav.Link className={styles.navLink} as={Link} to='/projects' title='projects page link'>Projects</Nav.Link>
+                  <Nav.Link className={styles.navLink} as={Link} to='/contact' title='contact page link'>Contact</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

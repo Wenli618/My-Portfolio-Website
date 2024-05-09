@@ -22,13 +22,13 @@ function MyContact() {
                     </div>
                     <div className='socials'>
                         <span>Socials: </span>
-                    <a href="https://www.linkedin.com/in/wenli-jia-2462ab287/">
+                    <a href="https://www.linkedin.com/in/wenli-jia-2462ab287/" title="link to linkedin">
             <PiLinkedinLogoBold className="socialIcon"/>
             </a>
-            <a href="https://github.com/Wenli618">
+            <a href="https://github.com/Wenli618" title="link to github">
             <FiGithub className="socialIcon"/>
             </a>
-            <a href="https://github.com/Wenli618">
+            <a href="https://codepen.io/your-work" title="link to codepen">
             <FaCodepen className="socialIcon"/>
             </a>
 

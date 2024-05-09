@@ -8,7 +8,7 @@
 	position: relative;
 	line-height: 1.6;
 	font-size: 4.5vmin;
-	width: 100vmin;
+	width: 90vmin;
 	height: 60vmin;
 	padding: 7vmin;
 	border-radius: 6px;
@@ -64,8 +64,11 @@
 
                 .email{
                     display: flex;
+                    align-items: center;
                     p{
-                        margin-left: 1rem;
+                        margin:0;
+                        margin-left:0.7em;
+                        font-size: 0.7em;
                     }
                 }
 
@@ -114,7 +117,7 @@
 
     .slice {
         top: -59vmin;
-        left: -1vmin;
+        left: -11vmin;
         position: absolute;
         width: 81.3vmin;
         height: 140vmin;

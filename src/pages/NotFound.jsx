@@ -14,7 +14,7 @@ function NotFound() {
       
       <img src={notFoundImg} alt="not found image" />
       
-      <CustomBtn onClick={backToHomePage}><span>Go Back</span></CustomBtn>
+      <CustomBtn onClick={backToHomePage} label='back to home button'><span>Go Back</span></CustomBtn>
 
     </div>
   )
