@@ -35,13 +35,13 @@ function AboutMe() {
     <div className="aboutContainer">
       <div className="about">
         <h1 >A Bit About Me</h1>
-        <p>I am currently studying a diploma of information technology at Holmesglen, majoring in full stack web development. Before that, I've already finished a 12-week web development bootcamp offered by General Assembly in 2023.During my learning journey, I completed several projects related to frontend and backend development. </p>
+        <p>I am currently studying for a Diploma of Information Technology at Holmesglen, with a major in full-stack web development. Prior to this, I completed a 12-week web development bootcamp offered by General Assembly in 2023. Throughout my learning journey, I have completed several projects related to frontend and backend development. </p>
       </div>
       <div className="splitLine"></div>
      
       <div className="skillContainer">
         <h2 className="title">Skills</h2>
-        <p>Through dedicated study and hands-on project experiences, I have cultivated proficiency in a diverse array of programming languages, frameworks, libraries, and development tools. My current skill showed below. And my tech stack is still expanding ... </p>
+        <p>Through dedicated study and hands-on project experiences, I have cultivated proficiency in a diverse array of programming languages, frameworks, libraries, and development tools. Below are my current skills, and my tech stack continues to expand...</p>
         <ul className='skillList'>
           {sillList.map( (item, index )=> <li key={index}><img className='skillIcon' src={item.url} alt={item.name} /></li>)}
         </ul>

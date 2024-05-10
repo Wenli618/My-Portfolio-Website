@@ -12215,3 +12215,25 @@ h1, h2 {
 .notFound span {
   font-size: 1.5rem;
 }
+
+.navbar-toggler {
+  color: transparent;
+}
+.navbar-toggler .navbar-toggler-icon {
+  width: 2rem;
+  height: 1.5rem;
+}
+
+.nav-link {
+  font-weight: bold;
+  padding: 0;
+  margin: 0.5rem;
+}
+.nav-link:hover {
+  text-decoration: underline solid #E40046 2px;
+  text-underline-offset: 5px;
+}
+.nav-link:focus {
+  text-decoration: underline solid #E40046 2px;
+  text-underline-offset: 5px;
+}

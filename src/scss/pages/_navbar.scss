@@ -1,0 +1,25 @@
+@use '../abstracts/' as *;
+
+.navbar-toggler{
+    
+    color: transparent;
+    .navbar-toggler-icon{
+        width: 2rem;
+        height: 1.5rem;
+    }
+}
+
+.nav-link {
+    font-weight: bold;
+    padding: 0 ;
+    margin: 0.5rem;
+
+    &:hover{
+        text-decoration: underline solid $brandColor 2px;
+        text-underline-offset: 5px;
+    }
+    &:focus{
+        text-decoration: underline solid $brandColor 2px ;
+        text-underline-offset: 5px;
+    }
+}

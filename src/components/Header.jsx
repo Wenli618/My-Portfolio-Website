@@ -14,7 +14,7 @@ function Header() {
               <h3> Wenli Jia </h3>
               <span>  /&gt;</span>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls='offcanvasNavbar-expand-md' />
+            <Navbar.Toggle aria-controls='offcanvasNavbar-expand-md' className='border-0'/>
             <Navbar.Offcanvas
               id='offcanvasNavbar-expand-md'
               aria-labelledby='offcanvasNavbarLabel-expand-md'
